@@ -16,9 +16,7 @@ app.setSerializerCompiler(serializerCompiler);
 app.setValidatorCompiler(validatorCompiler);
 
 app.get("/health", () => {
-    return "ok"
-})
-
-app.listen({ port: env.PORT }).then(() => {
-  console.log("HTTP Server running!");
+  return "ok";
 });
+
+app.listen({ port: env.PORT });
