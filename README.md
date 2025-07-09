@@ -63,7 +63,7 @@ docker-compose up -d
 
 5. **Execute as migrações e seeds**
 ```bash
-npx drizlle-kit migrate
+npx drizzle-kit migrate
 ```
 
 5. **popule o banco com os seed**
